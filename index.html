@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment09- JavaScript</title>
+</head>
+<body>
+    <h2>Assessment09- JavaScript question no.10</h2>
+    <script>
+//10. Write a program that takes a number as input and checks if it's a perfect square. 
+//Display "Perfect square" if it is, otherwise "Not a perfect square." 
+
+function isPerfectSquare(number) {
+  const squareRoot = Math.sqrt(number);
+  return squareRoot === Math.floor(squareRoot);
+}
+
+// Example usage
+const userInput = prompt("Enter a number:");
+if (isPerfectSquare(userInput)) {
+  console.log("Perfect square");
+} else {
+  console.log("Not a perfect square");
+}
+
+ </script>
+</body>
+</html>
